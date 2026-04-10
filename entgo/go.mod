@@ -17,7 +17,7 @@ require (
 	github.com/52dev/go-crud/audit v1.0.0
 	github.com/52dev/go-crud/pagination v1.0.0
 	github.com/52dev/go-crud/viewer v1.0.0
-	github.com/52dev/go-utils v1.0.0
+	github.com/52dev/go-utils v1.1.34
 	github.com/52dev/go-utils/id v1.0.0
 	github.com/52dev/go-utils/mapper v1.0.0
 	github.com/XSAM/otelsql v0.41.0
