@@ -1,16 +1,24 @@
-git tag api/v1.0.0 --force
-git tag pagination/v1.0.0 --force
-git tag viewer/v1.0.0 --force
-git tag audit/v1.0.0 --force
+#!/bin/bash
+set -e
+BASE_DIR=$(pwd)
+VERSION="v1.0.0"
 
-git tag entgo/v1.0.0 --force
-git tag gorm/v1.0.0 --force
+# 强制创建/覆盖根标签
+echo "=== Force create root tag: ${VERSION} ==="
+git tag -f "${VERSION}"
 
-git tag cassandra/v1.0.0 --force
-git tag elasticsearch/v1.0.0 --force
-git tag clickhouse/v1.0.0 --force
-git tag influxdb/v1.0.0 --force
-git tag mongodb/v1.0.0 --force
-git tag doris/v1.0.0 --force
+# 强制创建/覆盖子模块标签
+echo -e "\n=== Force create submodule tags ==="
+for dir in */; do
+    if [ -f "${dir}go.mod" ]; then
+        tag_name=$(basename "${dir}")/"${VERSION}"
+        git tag -f "${tag_name}"
+        echo "Created tag: ${tag_name}"
+    fi
+done
 
-git push origin --tags
+# 强制推送覆盖远程标签
+echo -e "\n=== Push all tags to remote ==="
+git push origin --tags -f
+
+echo -e "\n✅ All tags updated!"

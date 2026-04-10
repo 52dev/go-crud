@@ -7,15 +7,15 @@ replace github.com/52dev/go-crud/api => ../api
 replace github.com/52dev/go-crud/pagination => ../pagination
 
 require (
+	github.com/52dev/go-crud/api v1.0.0
+	github.com/52dev/go-crud/pagination v1.0.0
+	github.com/52dev/go-utils v1.0.0
+	github.com/52dev/go-utils/mapper v1.0.0
 	github.com/DATA-DOG/go-sqlmock v1.5.2
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/go-sql-driver/mysql v1.9.3
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/stretchr/testify v1.11.1
-	github.com/52dev/go-crud/api  v1.0.0
-	github.com/52dev/go-crud/pagination  v1.0.0
-	github.com/52dev/go-utils  v1.0.0
-	github.com/52dev/go-utils/mapper  v1.0.0
 	google.golang.org/protobuf v1.36.11
 )
 

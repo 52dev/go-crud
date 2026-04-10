@@ -7,13 +7,13 @@ replace github.com/52dev/go-crud/api => ../api
 replace github.com/52dev/go-crud/pagination => ../pagination
 
 require (
+	github.com/52dev/go-crud/api v1.0.0
+	github.com/52dev/go-crud/pagination v1.0.0
+	github.com/52dev/go-utils v1.0.0
+	github.com/52dev/go-utils/mapper v1.0.0
 	github.com/ClickHouse/clickhouse-go/v2 v2.43.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
-	github.com/52dev/go-crud/api v1.0.0
-	github.com/52dev/go-crud/pagination  v1.0.0
-	github.com/52dev/go-utils  v1.0.0
-	github.com/52dev/go-utils/mapper v1.0.0
 	google.golang.org/protobuf v1.36.11
 )
 
