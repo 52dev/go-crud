@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/52dev/go-utils/stringcase"
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/tx7do/go-utils/stringcase"
 )
 
 // Builder 用于构建 Doris SQL 查询

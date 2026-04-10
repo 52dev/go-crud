@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
-	"github.com/tx7do/go-crud/doris/query"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
+	"github.com/52dev/go-crud/doris/query"
 )
 
 func TestStructuredSorting_BuildOrderClause_NoOrders_NoOrderBy(t *testing.T) {

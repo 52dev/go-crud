@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/52dev/go-utils/mapper"
+	"github.com/52dev/go-utils/trans"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/stretchr/testify/assert"
-	"github.com/tx7do/go-utils/mapper"
-	"github.com/tx7do/go-utils/trans"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 )
 
 // 为测试定义简单实体类型（没有 deleted_at 字段）

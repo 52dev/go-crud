@@ -1,6 +1,6 @@
 package filter
 
-import paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+import paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 
 var (
 	queryStringConverter  = NewQueryStringConverter()

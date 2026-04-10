@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/52dev/go-utils/stringcase"
 	"github.com/go-kratos/kratos/v2/encoding"
 	_ "github.com/go-kratos/kratos/v2/encoding/json"
-	"github.com/tx7do/go-utils/stringcase"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
-	"github.com/tx7do/go-crud/pagination"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
+	"github.com/52dev/go-crud/pagination"
 )
 
 const (

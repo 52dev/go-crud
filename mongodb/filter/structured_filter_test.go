@@ -3,10 +3,10 @@ package filter
 import (
 	"testing"
 
-	"github.com/tx7do/go-crud/mongodb/query"
+	"github.com/52dev/go-crud/mongodb/query"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 )
 
 func mustMarshal(fe *paginationV1.FilterExpr) string {

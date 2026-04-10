@@ -5,7 +5,7 @@ package menu
 import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
-	"github.com/tx7do/go-crud/entgo/ent/predicate"
+	"github.com/52dev/go-crud/entgo/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

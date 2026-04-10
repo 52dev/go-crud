@@ -9,14 +9,14 @@ import (
 	"log"
 	"reflect"
 
-	"github.com/tx7do/go-crud/entgo/ent/migrate"
+	"github.com/52dev/go-crud/entgo/ent/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
-	"github.com/tx7do/go-crud/entgo/ent/menu"
-	"github.com/tx7do/go-crud/entgo/ent/user"
+	"github.com/52dev/go-crud/entgo/ent/menu"
+	"github.com/52dev/go-crud/entgo/ent/user"
 )
 
 // Client is the client that holds all ent builders.

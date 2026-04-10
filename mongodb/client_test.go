@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/52dev/go-utils/trans"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/stretchr/testify/assert"
-	"github.com/tx7do/go-utils/trans"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
 	"go.mongodb.org/mongo-driver/v2/bson"

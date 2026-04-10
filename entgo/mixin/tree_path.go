@@ -10,7 +10,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/mixin"
-	"github.com/tx7do/go-crud/entgo/rule"
+	"github.com/52dev/go-crud/entgo/rule"
 )
 
 var pathRe = regexp.MustCompile(`^/(?:\d+/)*$`)

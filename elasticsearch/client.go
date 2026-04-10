@@ -11,7 +11,7 @@ import (
 	elasticsearchV9 "github.com/elastic/go-elasticsearch/v9"
 	esapiV9 "github.com/elastic/go-elasticsearch/v9/esapi"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 )
 
 type Client struct {

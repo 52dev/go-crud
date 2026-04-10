@@ -1,8 +1,8 @@
-module github.com/tx7do/go-crud/api
+module github.com/52dev/go-crud/api
 
 go 1.24.11
 
-replace github.com/tx7do/go-crud => ../
+replace github.com/52dev/go-crud => ../
 
 require (
 	github.com/google/gnostic v0.7.1

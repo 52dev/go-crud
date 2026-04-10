@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/tx7do/go-crud/influxdb/query"
-	"github.com/tx7do/go-utils/stringcase"
+	"github.com/52dev/go-crud/influxdb/query"
+	"github.com/52dev/go-utils/stringcase"
 )
 
 var fieldNameRegexp = regexp.MustCompile(`^[A-Za-z0-9_.]+$`)

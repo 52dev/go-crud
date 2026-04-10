@@ -9,18 +9,18 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/52dev/go-utils/mapper"
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/tx7do/go-utils/mapper"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
-	"github.com/tx7do/go-crud/doris/field"
-	"github.com/tx7do/go-crud/doris/filter"
-	paging "github.com/tx7do/go-crud/doris/pagination"
-	"github.com/tx7do/go-crud/doris/query"
-	"github.com/tx7do/go-crud/doris/sorting"
-	paginationFilter "github.com/tx7do/go-crud/pagination/filter"
-	paginationSorting "github.com/tx7do/go-crud/pagination/sorting"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
+	"github.com/52dev/go-crud/doris/field"
+	"github.com/52dev/go-crud/doris/filter"
+	paging "github.com/52dev/go-crud/doris/pagination"
+	"github.com/52dev/go-crud/doris/query"
+	"github.com/52dev/go-crud/doris/sorting"
+	paginationFilter "github.com/52dev/go-crud/pagination/filter"
+	paginationSorting "github.com/52dev/go-crud/pagination/sorting"
 )
 
 // PagingResult 是通用的分页返回结构，包含 items 和 total 字段

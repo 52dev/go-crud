@@ -1,19 +1,19 @@
-module github.com/tx7do/go-crud/clickhouse
+module github.com/52dev/go-crud/clickhouse
 
 go 1.25.3
 
-replace github.com/tx7do/go-crud/api => ../api
+replace github.com/52dev/go-crud/api => ../api
 
-replace github.com/tx7do/go-crud/pagination => ../pagination
+replace github.com/52dev/go-crud/pagination => ../pagination
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.43.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/go-crud/api v0.0.7
-	github.com/tx7do/go-crud/pagination v0.0.13
-	github.com/tx7do/go-utils v1.1.34
-	github.com/tx7do/go-utils/mapper v0.0.3
+	github.com/52dev/go-crud/api v1.0.0
+	github.com/52dev/go-crud/pagination  v1.0.0
+	github.com/52dev/go-utils  v1.0.0
+	github.com/52dev/go-utils/mapper v1.0.0
 	google.golang.org/protobuf v1.36.11
 )
 

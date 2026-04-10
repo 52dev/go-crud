@@ -8,8 +8,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/tx7do/go-crud/entgo/ent/menu"
-	"github.com/tx7do/go-crud/entgo/ent/predicate"
+	"github.com/52dev/go-crud/entgo/ent/menu"
+	"github.com/52dev/go-crud/entgo/ent/predicate"
 )
 
 // MenuDelete is the builder for deleting a Menu entity.

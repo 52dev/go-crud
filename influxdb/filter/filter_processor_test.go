@@ -3,8 +3,8 @@ package filter
 import (
 	"testing"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
-	"github.com/tx7do/go-crud/influxdb/query"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
+	"github.com/52dev/go-crud/influxdb/query"
 )
 
 func TestProcessor_Process_ReturnsBuilder_NoPanic(t *testing.T) {

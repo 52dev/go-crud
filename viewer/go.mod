@@ -1,3 +1,3 @@
-module github.com/tx7do/go-crud/viewer
+module github.com/52dev/go-crud/viewer
 
 go 1.24.6

@@ -3,7 +3,7 @@ package entgo
 import (
 	"reflect"
 
-	"github.com/tx7do/go-utils/trans"
+	"github.com/52dev/go-utils/trans"
 )
 
 // NodeConstraint 泛型节点约束接口

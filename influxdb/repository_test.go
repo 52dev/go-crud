@@ -6,9 +6,9 @@ package influxdb
 //
 //	"github.com/go-kratos/kratos/v2/log"
 //	"github.com/stretchr/testify/assert"
-//	"github.com/tx7do/go-utils/mapper"
+//	"github.com/52dev/go-utils/mapper"
 //
-//	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+//	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 //	mongoV2 "go.mongodb.org/mongo-driver/v2/mongo"
 //)
 //

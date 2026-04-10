@@ -1,8 +1,8 @@
 package pagination
 
 import (
-	"github.com/tx7do/go-crud/pagination"
-	"github.com/tx7do/go-crud/pagination/paginator"
+	"github.com/52dev/go-crud/pagination"
+	"github.com/52dev/go-crud/pagination/paginator"
 	"gorm.io/gorm"
 )
 

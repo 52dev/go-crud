@@ -7,16 +7,16 @@ import (
 
 	"github.com/go-kratos/kratos/v2/log"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 
-	"github.com/tx7do/go-crud/influxdb/field"
-	"github.com/tx7do/go-crud/influxdb/filter"
-	paging "github.com/tx7do/go-crud/influxdb/pagination"
-	"github.com/tx7do/go-crud/influxdb/query"
-	"github.com/tx7do/go-crud/influxdb/sorting"
+	"github.com/52dev/go-crud/influxdb/field"
+	"github.com/52dev/go-crud/influxdb/filter"
+	paging "github.com/52dev/go-crud/influxdb/pagination"
+	"github.com/52dev/go-crud/influxdb/query"
+	"github.com/52dev/go-crud/influxdb/sorting"
 
-	paginationFilter "github.com/tx7do/go-crud/pagination/filter"
-	paginationSorting "github.com/tx7do/go-crud/pagination/sorting"
+	paginationFilter "github.com/52dev/go-crud/pagination/filter"
+	paginationSorting "github.com/52dev/go-crud/pagination/sorting"
 )
 
 // Repository MongoDB 版仓库（泛型）

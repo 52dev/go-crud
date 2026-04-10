@@ -7,21 +7,21 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"github.com/go-kratos/kratos/v2/log"
 
-	"github.com/tx7do/go-utils/fieldmaskutil"
-	"github.com/tx7do/go-utils/mapper"
-	"github.com/tx7do/go-utils/trans"
+	"github.com/52dev/go-utils/fieldmaskutil"
+	"github.com/52dev/go-utils/mapper"
+	"github.com/52dev/go-utils/trans"
 
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
-	"github.com/tx7do/go-crud/entgo/field"
-	"github.com/tx7do/go-crud/entgo/filter"
-	pagination "github.com/tx7do/go-crud/entgo/pagination"
-	"github.com/tx7do/go-crud/entgo/sorting"
-	"github.com/tx7do/go-crud/entgo/update"
-	paginationFilter "github.com/tx7do/go-crud/pagination/filter"
-	paginationSorting "github.com/tx7do/go-crud/pagination/sorting"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
+	"github.com/52dev/go-crud/entgo/field"
+	"github.com/52dev/go-crud/entgo/filter"
+	pagination "github.com/52dev/go-crud/entgo/pagination"
+	"github.com/52dev/go-crud/entgo/sorting"
+	"github.com/52dev/go-crud/entgo/update"
+	paginationFilter "github.com/52dev/go-crud/pagination/filter"
+	paginationSorting "github.com/52dev/go-crud/pagination/sorting"
 )
 
 // Repository Ent查询器

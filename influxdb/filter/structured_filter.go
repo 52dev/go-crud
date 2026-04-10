@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-kratos/kratos/v2/encoding"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
-	"github.com/tx7do/go-crud/influxdb/query"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
+	"github.com/52dev/go-crud/influxdb/query"
 )
 
 // StructuredFilter 将 FilterExpr 转为基于 InfluxDB 的 查询条件，使用 Processor 在 *query.Builder 上追加 WHERE 子句

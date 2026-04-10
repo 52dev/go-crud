@@ -1,8 +1,8 @@
-module github.com/tx7do/go-crud/cassandra
+module github.com/52dev/go-crud/cassandra
 
 go 1.24.6
 
-replace github.com/tx7do/go-crud => ../
+replace github.com/52dev/go-crud => ../
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2

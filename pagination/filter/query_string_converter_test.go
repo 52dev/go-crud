@@ -3,13 +3,13 @@ package filter
 import (
 	"testing"
 
+	"github.com/52dev/go-utils/stringcase"
 	"github.com/google/go-cmp/cmp"
-	"github.com/tx7do/go-utils/stringcase"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 )
 
 func dpPtr(dp paginationV1.DatePart) *paginationV1.DatePart {

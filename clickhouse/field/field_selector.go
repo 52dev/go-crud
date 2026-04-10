@@ -1,7 +1,7 @@
 package field
 
 import (
-	"github.com/tx7do/go-crud/clickhouse/query"
+	"github.com/52dev/go-crud/clickhouse/query"
 )
 
 // Selector 字段选择器，用于构建 ClickHouse 查询中的 SELECT 子句。

@@ -10,7 +10,7 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/tx7do/go-crud/entgo/ent/menu"
+	"github.com/52dev/go-crud/entgo/ent/menu"
 )
 
 // MenuCreate is the builder for creating a Menu entity.

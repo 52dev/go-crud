@@ -3,9 +3,9 @@ package filter
 import (
 	"strings"
 
-	"github.com/tx7do/go-utils/stringcase"
+	"github.com/52dev/go-utils/stringcase"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 )
 
 var operatorMap = map[string]paginationV1.Operator{

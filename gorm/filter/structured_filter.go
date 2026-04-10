@@ -9,9 +9,9 @@ import (
 	_ "github.com/go-kratos/kratos/v2/encoding/json"
 	"github.com/go-kratos/kratos/v2/log"
 
-	"github.com/tx7do/go-utils/stringcase"
+	"github.com/52dev/go-utils/stringcase"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 )
 
 // StructuredFilter 基于 FilterExpr 的 GORM 过滤器

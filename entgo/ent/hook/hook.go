@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tx7do/go-crud/entgo/ent"
+	"github.com/52dev/go-crud/entgo/ent"
 )
 
 // The MenuFunc type is an adapter to allow the use of ordinary

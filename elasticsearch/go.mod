@@ -1,16 +1,16 @@
-module github.com/tx7do/go-crud/elasticsearch
+module github.com/52dev/go-crud/elasticsearch
 
 go 1.25.0
 
-replace github.com/tx7do/go-crud/api => ../api
+replace github.com/52dev/go-crud/api => ../api
 
-replace github.com/tx7do/go-crud/pagination => ../pagination
+replace github.com/52dev/go-crud/pagination => ../pagination
 
 require (
 	github.com/elastic/go-elasticsearch/v9 v9.3.1
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/go-crud/api v0.0.7
+	github.com/52dev/go-crud/api v1.0.0
 )
 
 require (

@@ -6,8 +6,8 @@ import (
 	"github.com/go-kratos/kratos/v2/encoding"
 	bsonV2 "go.mongodb.org/mongo-driver/v2/bson"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
-	"github.com/tx7do/go-crud/mongodb/query"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
+	"github.com/52dev/go-crud/mongodb/query"
 )
 
 // StructuredFilter 将 FilterExpr 转为 MongoDB BSON filter 并应用到 *query.Builder

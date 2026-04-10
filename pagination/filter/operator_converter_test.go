@@ -3,8 +3,8 @@ package filter
 import (
 	"testing"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
-	"github.com/tx7do/go-utils/trans"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
+	"github.com/52dev/go-utils/trans"
 )
 
 func TestConverterStringToOperator(t *testing.T) {

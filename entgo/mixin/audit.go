@@ -11,8 +11,8 @@ import (
 
 	"entgo.io/ent"
 
-	"github.com/tx7do/go-crud/audit"
-	"github.com/tx7do/go-crud/viewer"
+	"github.com/52dev/go-crud/audit"
+	"github.com/52dev/go-crud/viewer"
 )
 
 type Audit struct {

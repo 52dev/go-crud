@@ -8,7 +8,7 @@ import (
 	"entgo.io/ent/entql"
 	"entgo.io/ent/privacy"
 
-	"github.com/tx7do/go-crud/viewer"
+	"github.com/52dev/go-crud/viewer"
 )
 
 func OwnerOnlyRule(ctx context.Context, f Filter) error {

@@ -7,7 +7,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/tx7do/go-crud/viewer"
+	"github.com/52dev/go-crud/viewer"
 )
 
 // TenantInterceptor 这是一个通用的租户拦截器

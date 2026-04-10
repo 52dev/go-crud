@@ -2,8 +2,8 @@ package pagination
 
 import (
 	"entgo.io/ent/dialect/sql"
-	"github.com/tx7do/go-crud/pagination"
-	"github.com/tx7do/go-crud/pagination/paginator"
+	"github.com/52dev/go-crud/pagination"
+	"github.com/52dev/go-crud/pagination/paginator"
 )
 
 // PagePaginator 基于页码的分页器

@@ -11,15 +11,15 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	"github.com/tx7do/go-utils/mapper"
+	"github.com/52dev/go-utils/mapper"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
-	"github.com/tx7do/go-crud/gorm/field"
-	"github.com/tx7do/go-crud/gorm/filter"
-	paging "github.com/tx7do/go-crud/gorm/pagination"
-	"github.com/tx7do/go-crud/gorm/sorting"
-	paginationFilter "github.com/tx7do/go-crud/pagination/filter"
-	paginationSorting "github.com/tx7do/go-crud/pagination/sorting"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
+	"github.com/52dev/go-crud/gorm/field"
+	"github.com/52dev/go-crud/gorm/filter"
+	paging "github.com/52dev/go-crud/gorm/pagination"
+	"github.com/52dev/go-crud/gorm/sorting"
+	paginationFilter "github.com/52dev/go-crud/pagination/filter"
+	paginationSorting "github.com/52dev/go-crud/pagination/sorting"
 )
 
 // PagingResult 通用分页返回

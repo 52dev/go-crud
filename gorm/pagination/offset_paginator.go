@@ -3,8 +3,8 @@ package pagination
 import (
 	"gorm.io/gorm"
 
-	"github.com/tx7do/go-crud/pagination"
-	"github.com/tx7do/go-crud/pagination/paginator"
+	"github.com/52dev/go-crud/pagination"
+	"github.com/52dev/go-crud/pagination/paginator"
 )
 
 // OffsetPaginator 基于 Offset 的分页器

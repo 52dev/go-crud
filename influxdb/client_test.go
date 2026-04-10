@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/52dev/go-utils/trans"
 	"github.com/InfluxCommunity/influxdb3-go/v2/influxdb3"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/stretchr/testify/assert"
-	"github.com/tx7do/go-utils/trans"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

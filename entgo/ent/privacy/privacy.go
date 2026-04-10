@@ -5,7 +5,7 @@ package privacy
 import (
 	"context"
 
-	"github.com/tx7do/go-crud/entgo/ent"
+	"github.com/52dev/go-crud/entgo/ent"
 
 	"entgo.io/ent/entql"
 	"entgo.io/ent/privacy"

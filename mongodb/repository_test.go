@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
+	"github.com/52dev/go-crud/mongodb/query"
+	"github.com/52dev/go-utils/mapper"
+	"github.com/52dev/go-utils/trans"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/stretchr/testify/assert"
-	"github.com/tx7do/go-crud/mongodb/query"
-	"github.com/tx7do/go-utils/mapper"
-	"github.com/tx7do/go-utils/trans"
 	bsonV2 "go.mongodb.org/mongo-driver/v2/bson"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 )
 
 // 简单实体类型用于测试

@@ -37,10 +37,10 @@ github.com/rogpeppe/go-internal v1.14.1 h1:UQB4HGPB6osV0SQTLymcB4TgvyWu6ZyliaW0t
 github.com/rogpeppe/go-internal v1.14.1/go.mod h1:MaRKkUm5W0goXpeCfT7UZI6fk/L7L7so1lCWt35ZSgc=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
-github.com/tx7do/go-utils v1.1.35 h1:gsHGT/CpObJYeKyczgZkg2x1kRIH9P4FXB0xKNWf7u0=
-github.com/tx7do/go-utils v1.1.35/go.mod h1:NO6w8nfgAVHEH/aMmu7VNjX7DJQ8mnWHmtgp4qmyJ7Q=
-github.com/tx7do/go-utils/mapper v0.0.3 h1:Z7YoPVsa6I3lfWGSUoa9atujHWeF3kP+yKfS6Rkx5SM=
-github.com/tx7do/go-utils/mapper v0.0.3/go.mod h1:zziBbtoqCt8pRw+jmK9Ic9sRD7a2yCLWG40Hy2UCSCs=
+github.com/52dev/go-utils v1.1.35 h1:gsHGT/CpObJYeKyczgZkg2x1kRIH9P4FXB0xKNWf7u0=
+github.com/52dev/go-utils v1.1.35/go.mod h1:NO6w8nfgAVHEH/aMmu7VNjX7DJQ8mnWHmtgp4qmyJ7Q=
+github.com/52dev/go-utils/mapper v0.0.3 h1:Z7YoPVsa6I3lfWGSUoa9atujHWeF3kP+yKfS6Rkx5SM=
+github.com/52dev/go-utils/mapper v0.0.3/go.mod h1:zziBbtoqCt8pRw+jmK9Ic9sRD7a2yCLWG40Hy2UCSCs=
 go.einride.tech/aip v0.84.0 h1:ReuKAOgioje07J57pPv5te5S25cBUnbaJLF5iyp+TOE=
 go.einride.tech/aip v0.84.0/go.mod h1:E8+wdTApA70odnpFzJgsGogHozC2JCIhFJBKPr8bVig=
 go.yaml.in/yaml/v3 v3.0.4 h1:tfq32ie2Jv2UxXFdLJdh3jXuOzWiL1fo0bu/FbuKpbc=

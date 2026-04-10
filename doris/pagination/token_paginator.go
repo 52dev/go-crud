@@ -3,12 +3,12 @@ package pagination
 import (
 	"encoding/base64"
 
+	"github.com/52dev/go-crud/doris/query"
+	"github.com/52dev/go-crud/pagination"
 	"github.com/go-kratos/kratos/v2/encoding"
 	_ "github.com/go-kratos/kratos/v2/encoding/json"
-	"github.com/tx7do/go-crud/doris/query"
-	"github.com/tx7do/go-crud/pagination"
 
-	"github.com/tx7do/go-crud/pagination/paginator"
+	"github.com/52dev/go-crud/pagination/paginator"
 )
 
 // TokenPaginator 基于 Token 的分页器（Doris 版）

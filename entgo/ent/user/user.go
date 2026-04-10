@@ -44,7 +44,7 @@ func ValidColumn(column string) bool {
 // package on the initialization of the application. Therefore,
 // it should be imported in the main as follows:
 //
-//	import _ "github.com/tx7do/go-crud/entgo/ent/runtime"
+//	import _ "github.com/52dev/go-crud/entgo/ent/runtime"
 var (
 	Hooks  [1]ent.Hook
 	Policy ent.Policy

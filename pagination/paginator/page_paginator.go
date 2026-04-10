@@ -1,6 +1,6 @@
 package paginator
 
-import "github.com/tx7do/go-crud/pagination"
+import "github.com/52dev/go-crud/pagination"
 
 var DefaultPage = 1
 var DefaultPageSize = 10

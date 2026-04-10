@@ -7,10 +7,10 @@ import (
 	"github.com/go-kratos/kratos/v2/encoding"
 	_ "github.com/go-kratos/kratos/v2/encoding/json"
 
-	"github.com/tx7do/go-crud/mongodb/query"
-	"github.com/tx7do/go-utils/stringcase"
+	"github.com/52dev/go-crud/mongodb/query"
+	"github.com/52dev/go-utils/stringcase"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 	bsonV2 "go.mongodb.org/mongo-driver/v2/bson"
 )
 

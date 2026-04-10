@@ -1,10 +1,10 @@
-module github.com/tx7do/go-crud/doris
+module github.com/52dev/go-crud/doris
 
 go 1.25.0
 
-replace github.com/tx7do/go-crud/api => ../api
+replace github.com/52dev/go-crud/api => ../api
 
-replace github.com/tx7do/go-crud/pagination => ../pagination
+replace github.com/52dev/go-crud/pagination => ../pagination
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
@@ -12,10 +12,10 @@ require (
 	github.com/go-sql-driver/mysql v1.9.3
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/go-crud/api v0.0.7
-	github.com/tx7do/go-crud/pagination v0.0.13
-	github.com/tx7do/go-utils v1.1.35
-	github.com/tx7do/go-utils/mapper v0.0.3
+	github.com/52dev/go-crud/api  v1.0.0
+	github.com/52dev/go-crud/pagination  v1.0.0
+	github.com/52dev/go-utils  v1.0.0
+	github.com/52dev/go-utils/mapper  v1.0.0
 	google.golang.org/protobuf v1.36.11
 )
 

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/52dev/go-utils/stringcase"
 	"github.com/InfluxCommunity/influxdb3-go/v2/influxdb3"
-	"github.com/tx7do/go-utils/stringcase"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/known/timestamppb"

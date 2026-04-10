@@ -5,9 +5,9 @@ package runtime
 import (
 	"context"
 
-	"github.com/tx7do/go-crud/entgo/ent/menu"
-	"github.com/tx7do/go-crud/entgo/ent/schema"
-	"github.com/tx7do/go-crud/entgo/ent/user"
+	"github.com/52dev/go-crud/entgo/ent/menu"
+	"github.com/52dev/go-crud/entgo/ent/schema"
+	"github.com/52dev/go-crud/entgo/ent/user"
 
 	"entgo.io/ent"
 	"entgo.io/ent/privacy"

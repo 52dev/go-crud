@@ -8,7 +8,7 @@ import (
 	"go.einride.tech/aip/filtering"
 	v1alpha1 "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
 )
 
 type FilterStringConverter struct {

@@ -2,4 +2,4 @@
 
 package ent
 
-// The schema-stitching logic is generated in github.com/tx7do/go-crud/entgo/ent/runtime/runtime.go
+// The schema-stitching logic is generated in github.com/52dev/go-crud/entgo/ent/runtime/runtime.go

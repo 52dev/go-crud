@@ -7,8 +7,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	"github.com/tx7do/go-utils/fieldmaskutil"
-	"github.com/tx7do/go-utils/stringcase"
+	"github.com/52dev/go-utils/fieldmaskutil"
+	"github.com/52dev/go-utils/stringcase"
 
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"

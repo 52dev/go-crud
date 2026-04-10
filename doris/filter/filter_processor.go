@@ -5,12 +5,12 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/52dev/go-utils/stringcase"
 	"github.com/go-kratos/kratos/v2/encoding"
-	"github.com/tx7do/go-utils/stringcase"
 
-	paginationV1 "github.com/tx7do/go-crud/api/gen/go/pagination/v1"
-	"github.com/tx7do/go-crud/doris/query"
-	"github.com/tx7do/go-crud/pagination/filter"
+	paginationV1 "github.com/52dev/go-crud/api/gen/go/pagination/v1"
+	"github.com/52dev/go-crud/doris/query"
+	"github.com/52dev/go-crud/pagination/filter"
 )
 
 var jsonKeyPattern = regexp.MustCompile(`^[A-Za-z0-9_.]+$`)

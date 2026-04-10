@@ -8,7 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/tx7do/go-crud/entgo/ent/menu"
+	"github.com/52dev/go-crud/entgo/ent/menu"
 )
 
 // Menu is the model entity for the Menu schema.
