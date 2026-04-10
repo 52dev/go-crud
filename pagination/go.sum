@@ -1,6 +1,5 @@
+github.com/52dev/go-utils v1.0.0 h1:gxNsMLqcvb7tzwrfDDjxLX2PEdO3UIjgN4R6eQBqW3k=
 github.com/52dev/go-utils v1.0.0/go.mod h1:E/YDy0vNL/GTX4A57rc5xaPbJGd389W41ChGIpPJNMo=
-github.com/52dev/go-utils v1.1.34 h1:pE37CWljZkuqT1xs3nHsmg1SFXxJVAPXfbhUPXAo3fA=
-github.com/52dev/go-utils v1.1.34/go.mod h1:h4l7qbtVr1MCDtgue/FGimhdPxwfR9UIL91U3CKnQSk=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

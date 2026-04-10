@@ -7,10 +7,10 @@ replace github.com/52dev/go-crud/api => ../api
 replace github.com/52dev/go-crud/pagination => ../pagination
 
 require (
+	github.com/52dev/go-crud/api v1.0.0
 	github.com/elastic/go-elasticsearch/v9 v9.3.1
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
-	github.com/52dev/go-crud/api v1.0.0
 )
 
 require (

@@ -5,10 +5,10 @@ go 1.25.0
 replace github.com/52dev/go-crud/api => ../api
 
 require (
-	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/google/go-cmp v0.7.0
 	github.com/52dev/go-crud/api v1.0.0
 	github.com/52dev/go-utils v1.0.0
+	github.com/go-kratos/kratos/v2 v2.9.2
+	github.com/google/go-cmp v0.7.0
 	go.einride.tech/aip v0.81.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20260226221140-a57be14db171
 	google.golang.org/protobuf v1.36.11
